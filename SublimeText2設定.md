@@ -1,5 +1,12 @@
 #Sublime text2　設定懶人包
 
+請先安裝好Sublime Text2，在Ubuntu下可用下列步驟安裝
+
+	sudo add-apt-repository ppa:webupd8team/sublime-text-2
+	sudo apt-get update
+	sudo apt-get install sublime-text
+
+[出處](http://askubuntu.com/questions/172698/how-do-i-install-sublime-text-2)
 
 ###安裝Packet Manerger
 * 套件的網址 [https://sublime.wbond.net/](https://sublime.wbond.net/)
