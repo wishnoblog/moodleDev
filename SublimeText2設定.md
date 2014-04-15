@@ -1,0 +1,31 @@
+#Sublime text2　設定懶人包
+
+
+###安裝Packet Manerger
+* 套件的網址 [https://sublime.wbond.net/](https://sublime.wbond.net/)
+* 按下ctrl+`並輸入
+
+		import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
+
+* 重開 sublime text
+
+###安裝套件###
+* 按下 ctrl+shift+p
+* 輸入 `install` 
+* 輸入 套件名稱
+
+###常用套件###
+* ApplySyntax 自動偵測語言調整與法Hight Light
+* Emmet 原Zend Coding，網頁前端使用
+* ConvertToUTF8 處理Big5編碼檔案用
+* Git
+* HTML-CSS-JS Prettify　自動格式化程式碼
+* SFTP　
+* SublimeCodeIntel程式碼自動完成工具
+* Theme-Soda　外觀
+
+##Windows 7設定右鍵開啟
+請下載　[https://gist.github.com/iaian/5265136/download
+](https://gist.github.com/iaian/5265136/download)
+
+解壓縮後會有個reg檔，執行後就能使用右鍵開啟
