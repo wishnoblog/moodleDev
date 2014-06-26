@@ -23,13 +23,21 @@
 
 ###常用套件###
 * ApplySyntax 自動偵測語言調整與法Hight Light
-* Emmet 原Zend Coding，網頁前端使用
+* Emmet 原Zen Coding，自動產生HTML標籤
 * ConvertToUTF8 處理Big5編碼檔案用
 * Git
-* HTML-CSS-JS Prettify　自動格式化程式碼
-* SFTP　
-* SublimeCodeIntel程式碼自動完成工具
-* Theme-Soda　外觀
+* HTML-CSS-JS Prettify　自動格式化程式碼（需搭配Node.js）　
+* SublimeCodeIntel程式碼自動追蹤工具，追蹤Function定義位置，安裝後按下ctrl+點function就會自動跳到定義。
+* Theme-Soda　外觀。
+* Sub­limeLin­ter 寫JS以及CSS的神兵利器。
+* Phpcs 寫PHP的程式碼輔助。
+* Alignment 程式碼對齊，安裝後選取程式碼按ctrl+alt+a。
+
+### 不常用套件###
+* SFTP 
+* Hyperion for gettext 語系檔（*.po)上色
+* Color Highlighter 顏色標簽上色
+
 
 ##Windows 7設定右鍵開啟
 請下載　[https://gist.github.com/iaian/5265136/download
