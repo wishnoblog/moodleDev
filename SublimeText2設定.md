@@ -77,6 +77,6 @@
 詳細版
 [http://www.camdemy.com/media/6211](http://www.camdemy.com/media/6211)
 
-Ctrl + / 註解或取消註解
-Ctrl + Shift + V 貼上並符合縮排
-Ctrl + Shift + P 下指令
+		Ctrl + / 註解或取消註解
+		Ctrl + Shift + V 貼上並符合縮排
+		Ctrl + Shift + P 下指令
