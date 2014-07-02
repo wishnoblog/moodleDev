@@ -32,11 +32,15 @@
 * Sub­limeLin­ter 寫JS以及CSS的神兵利器。
 * Phpcs 寫PHP的程式碼輔助。
 * Alignment 程式碼對齊，安裝後選取程式碼按ctrl+alt+a。
+* WordHighlight 讓選取PHP變數時候會一起選擇$字號
 
 ### 不常用套件###
 * SFTP 
 * Hyperion for gettext 語系檔（*.po)上色
 * Color Highlighter 顏色標簽上色
+* SublimeBlockCursor 覺得游標還是太小的話，可以裝這個。
+* BracketHighlighter 清楚標出括弧的範圍
+* Stupid Indent 自動排版用
 
 
 ##Windows 7設定右鍵開啟
@@ -44,3 +48,35 @@
 ](https://gist.github.com/iaian/5265136/download)
 
 解壓縮後會有個reg檔，執行後就能使用右鍵開啟
+
+
+
+##界面設定
+
+		Preferences > Settings - User
+
+標記游標所在處
+
+* "highlight_line": true,
+
+標記修改過尚未儲存的檔案
+
+* "highlight_modified_tabs": true,
+
+
+把TAB轉成空白
+
+* "translate_tabs_to_spaces": true,
+
+游標變胖
+
+* "wide_caret": true,
+
+##常用熱鍵
+
+詳細版
+[http://www.camdemy.com/media/6211](http://www.camdemy.com/media/6211)
+
+Ctrl + / 註解或取消註解
+Ctrl + Shift + V 貼上並符合縮排
+Ctrl + Shift + P 下指令
